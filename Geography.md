@@ -57,8 +57,9 @@ The returned JSON response will be formatted identically for both request types.
 | geoData  | A JSON array of one or more objects containing geography data. If the request returns no results, the array will be empty. |
 
 For successful requests, each element of the returned array will be formatted as follows:
-| | |
-|-|-|
+
+|   |   |
+|---|---|
 | AdminAreas A JSON array of up to 2 AdminArea objects. Name: The name of the administrative district or subdivision. Level: An integer (1 or 2) indicating the hierarchal level of the administrative area. |
 | Latitude | A double value specifying the location's latitude (in degrees) within the range [-90, +90]. |
 | Longitude | A double value specifying the location's longitude (in degrees) within the range [-180, +180]. |
@@ -79,6 +80,7 @@ Accepts latitude and longitude values representing a geographic point and attemp
 Example URL: /nearbylocations?lat=33.75&lon=-84.39
 
 | Parameter | Description |
+|-----------|-------------|
 | latitude | Required. The latitude part of the coordinate query. May be shortened to lat. |
 | longitude | Required. The longitude part of the coordinate query. May be shortened to lon. |
 | language | Optional. The preferred ISO 639-1 language code for the response. May be shortened to lang. If this parameter is not specified, the default value of en (English) will be used. |
@@ -88,14 +90,15 @@ Example URL: /nearbylocations?lat=33.75&lon=-84.39
 
 Nearby Locations API Response
 -----------------------------
-| | |
-|-|-|
+|   |   |
+|---|---|
 | errorMsg | Contains information about any error(s) incurred during the request. If the request successfully returns results, this field will be empty. |
 | geoData | A JSON array of one or more objects containing geography data. If the request returns no results, the array will be empty. |  
 
 For successful requests, each element of the returned array will be formatted as follows:
-| | |
-|-|-|
+
+|   |   |
+|---|---|
 | AdminAreas | A JSON array of up to 2 AdminArea objects, each formatted as follows: Name: The name of the administrative district or subdivision. Level:  An integer (1 or 2) indicating the hierarchal level of the administrative area. |
 | AdminArea | The top-level administrative division of the named populated place (typically a state or province). |
 | CountryCode | The two-letter ISO-3166 country code representing the country of the named populated place. |
