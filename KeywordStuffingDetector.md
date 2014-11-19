@@ -1,9 +1,8 @@
- am pleased to share with you the Data Science Team’s latest release – the keyword stuffing detector (AKA spam detector), a classifier for identifying spam in job postings.
+I am pleased to share with you the Data Science Team’s latest release – the keyword stuffing detector (AKA spam detector), a classifier for identifying spam in job postings.
  
 This service is currently available in test and will be up in production soon. Using the normal OAuth handshake, you can access this service at https://wwwtest.api.careerbuilder.com/core/tagging/spamdetector.
  
 Here are some facts about this service:
- 
 ·       Hot and fresh out the kitchen
 ·       Accepts GET and POST requests
 ·       Accepts title, desc, and reqs parameters (must provide at least one)
@@ -13,11 +12,12 @@ Here are some facts about this service:
 An example request: https://wwwtest.api.careerbuilder.com/core/tagging/spamdetector?title=engineer&desc=solve%20hard%20problems&reqs=four%20year%20degree
  
 And its response:
-{
-  "data": {
-    "contains_spam": "0.0"
-  }
-}
+
+    {
+      "data": {
+        "contains_spam": "0.0"
+      }
+    }
  
 As a final note – we’ve observed some slowness in the classifier while parsing larger texts. This is currently being investigated.
  
