@@ -20,14 +20,13 @@ level: an integer between 1 and 5 indicating the job’s level
 description: a brief description corresponding to the level
  
 Following are all of the possible level + description pairs:
-1 Internship
 
-2 Entry Level
-
-3 Experienced (non-Manager)
-
-4 Manager (Manager, Supervisor of Staff)
-
-5 Executive (VP, SVP, Department Head, President, etc)
+| Level | Description                                          |
+|-------|------------------------------------------------------|
+| 1     | Internship                                           |
+| 2     | Entry Level                                          |
+| 3     | Experienced (non-Manager)                            |
+| 4     | Manager (Manager, Supervisor of Staff)               |
+| 5     | Executive (VP, SVP, Department Head, President, etc) |
  
 Please let me know if you have any questions or concerns.
