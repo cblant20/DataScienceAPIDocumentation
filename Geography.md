@@ -18,7 +18,7 @@ Accepts structured or unstructured location information and attempts to resolve 
 Structured (fielded) queries
 ----------------------------
 
-Example URL: /geocode/validate?locality=Atlanta&adminArea=GA&postalCode=30345&country=US
+Example URL: https://api.careerbuilder.com/core/geography/validate?locality=Atlanta&adminArea=GA&postalCode=30345&country=US
 
 At least one of (locality, postalCode, adminArea, country) must be provided in the query string.
 
@@ -36,7 +36,7 @@ At least one of (locality, postalCode, adminArea, country) must be provided in t
 Unstructured (free text) queries
 --------------------------------
 
-Example URL: /geocode/validate?query=Atlanta, GA 30345
+Example URL: https://api.careerbuilder.com/core/geography/validate?query=Atlanta, GA 30345
 
 | Parameter  | Description |
 |------------|-------------|
@@ -77,7 +77,7 @@ Nearby Locations API
 
 Accepts latitude and longitude values representing a geographic point and attempts to return a list of populated places near the point, sorted in descending order of population.
 
-Example URL: /nearbylocations?lat=33.75&lon=-84.39
+Example URL: https://api.careerbuilder.com/core/geography/nearbylocations?lat=33.75&lon=-84.39
 
 | Parameter | Description |
 |-----------|-------------|
