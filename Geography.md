@@ -99,7 +99,6 @@ For successful requests, each element of the returned array will be formatted as
 
 |   |   |
 |---|---|
-| AdminAreas | A JSON array of up to 2 AdminArea objects, each formatted as follows: Name: The name of the administrative district or subdivision. Level:  An integer (1 or 2) indicating the hierarchal level of the administrative area. |
 | AdminArea | The top-level administrative division of the named populated place (typically a state or province). |
 | CountryCode | The two-letter ISO-3166 country code representing the country of the named populated place. |
 | CountryName | The country of the named populated place. |
