@@ -99,11 +99,11 @@ For successful requests, each element of the returned array will be formatted as
 
 |   |   |
 |---|---|
-| AdminArea | The top-level administrative division of the named populated place (typically a state or province). |
-| CountryCode | The two-letter ISO-3166 country code representing the country of the named populated place. |
-| CountryName | The country of the named populated place. |
-| Distance | The distance, in km, of the named populated place from the geographic coordinate supplied in the request. |
-| Latitude | The latitude part of the named populated place's geographic location. |
-| Longitude | The longitude part of the named populated place's geographic location. |
-| Name | The name of the populated place. |
-| Population |The population of the named populated place. |
+| countryCode | The two-letter ISO-3166 country code representing the country of the named populated place. |
+| countryName | The country of the named populated place. |
+| latitude | The latitude part of the named populated place's geographic location. |
+| longitude | The longitude part of the named populated place's geographic location. |
+| distance | The distance, in km, of the named populated place from the geographic coordinate supplied in the request. |
+| population |The population of the named populated place. |
+| name | The name of the populated place. |
+| adminArea | The top-level administrative division of the named populated place (typically a state or province). |
