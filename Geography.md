@@ -36,7 +36,7 @@ At least one of (locality, postalCode, adminArea, country) must be provided in t
 Unstructured (free text) queries
 --------------------------------
 
-Example URL: https://api.careerbuilder.com/core/geography/validate?query=Atlanta, GA 30345
+Example URL: https://api.careerbuilder.com/core/geography/validate?query=Atlanta
 
 | Parameter  | Description |
 |------------|-------------|
