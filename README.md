@@ -12,3 +12,5 @@ This repo houses all published Data Science API documentation until CB gets a fu
 [KeywordStuffingDetector](KeywordStuffingDetector.md)
 
 [Skills](Skills.md)
+
+[RelevantSkills](RelevantSkills.md)
