@@ -2,6 +2,8 @@ Semantic Skills Tagging API
 
 Service endpoint URL and parameters
 
+https://api.careerbuilder.com/core/tagging/skills
+
 This URL supports the HTTP/GET and HTTP/POST.
 Parameters
 
