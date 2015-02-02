@@ -24,6 +24,7 @@ JSON
 {"response":[{"normalized_term":"Apache Hadoop (Hadoop)","confidence":1.0},{"normalized_term":"Apache Hive","confidence":1.0},{"normalized_term":"Softwares","confidence":0.0},{"normalized_term":"Java Platform Enterprise Edition (Computing Platforms)","confidence":0.0}]}
 
 XML
+```
 <response>
     <skill>
         <normalized_term>SQL Programming</normalized_term>
@@ -38,13 +39,15 @@ XML
         <confidence>0.0</confidence>
     </skill>
 </response>
-
+```
 And an error response will look like this:
 
 JSON
 {"errors":["Unsupported language."]}
 
 XML
+```
 <errors>
     <error>Unsupported language.</error>
 </errors>
+```
